@@ -1,6 +1,7 @@
 **SAPT — Suporte Adaptativo Projetado para suas Tarefas**
 
 **Descrição**
+
 O SAPT é um assistente pessoal de linha de comando desenvolvido em Python. Ele acolhe o usuário pelo nome e oferece um menu interativo para gerenciar uma lista de tarefas diárias, combinando tarefas pré-definidas com tarefas personalizadas adicionadas pelo próprio usuário.
 
 **Funcionalidades**
@@ -12,6 +13,7 @@ Remover tarefa — permite excluir qualquer tarefa da lista pelo número.
 Sair — encerra o programa com uma mensagem de despedida.
 
 **Fluxograma**
+
 Início
   └─> Acolhimento (solicita nome)
         └─> Loop principal
@@ -22,9 +24,11 @@ Início
               └─> Entrada inválida: solicita novo número
 
 **Descrição do fluxo:**
+
 ElementoDescriçãoInícioInício do programaEntrada de dadosNome do usuário e escolha do menu (1–4)ProcessamentoEstruturas while True, try/except e match/caseSaídaResposta correspondente a cada opção selecionadaFimOpção 4 encerra o loop com break
 
 **Tarefas Pré-definidas**
+
 Ao iniciar, o SAPT já carrega as seguintes tarefas na lista:
 
 Beber 2 litros de água
@@ -36,11 +40,13 @@ Ir dormir na hora certa
 
 
 **Como executar**
+
 Pré-requisito: Python 3.10 ou superior (necessário para match/case).
 bashpython assistente_pessoal.py
 Ao iniciar, o programa solicitará seu nome e apresentará o menu de opções.
 
 **Exemplo de uso**
+
 Olá usuário, seja bem vindo ao SAPT...
 Para começarmos o seu acolhimento, por gentileza nos informe seu nome: Maria
 Olá Maria, é um prazer te conhecer! Estou aqui para te ajudar com suas tarefas diárias.
@@ -62,6 +68,7 @@ O que você gostaria de fazer hoje?:
 6 - Ir dormir na hora certa
 
 **Estrutura do Código**
+
 assistente_pessoal.ipynb
 ├── Acolhimento (input de nome + saudação)
 ├── Listas de tarefas (pré-definidas + personalizadas)
