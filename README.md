@@ -1,9 +1,9 @@
-**SAPT — Suporte Adaptativo Projetado para suas Tarefas**
+*texto em itálico*#**SAPT — Suporte Adaptativo Projetado para suas Tarefas**
 
-Descrição
+**Descrição**
 O SAPT é um assistente pessoal de linha de comando desenvolvido em Python. Ele acolhe o usuário pelo nome e oferece um menu interativo para gerenciar uma lista de tarefas diárias, combinando tarefas pré-definidas com tarefas personalizadas adicionadas pelo próprio usuário.
 
-Funcionalidades
+**Funcionalidades**
 
 Acolhimento personalizado — solicita o nome do usuário e exibe uma saudação.
 Visualizar tarefas — exibe todas as tarefas diárias (pré-definidas + adicionadas).
@@ -11,8 +11,7 @@ Adicionar tarefa — permite incluir novas tarefas à lista.
 Remover tarefa — permite excluir qualquer tarefa da lista pelo número.
 Sair — encerra o programa com uma mensagem de despedida.
 
-
-Fluxograma
+**Fluxograma**
 Início
   └─> Acolhimento (solicita nome)
         └─> Loop principal
