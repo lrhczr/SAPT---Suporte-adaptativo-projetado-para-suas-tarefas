@@ -1,4 +1,4 @@
-SAPT — Suporte Adaptativo Projetado para suas Tarefas
+**SAPT — Suporte Adaptativo Projetado para suas Tarefas**
 
 Descrição
 O SAPT é um assistente pessoal de linha de comando desenvolvido em Python. Ele acolhe o usuário pelo nome e oferece um menu interativo para gerenciar uma lista de tarefas diárias, combinando tarefas pré-definidas com tarefas personalizadas adicionadas pelo próprio usuário.
